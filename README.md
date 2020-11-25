@@ -13,16 +13,14 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 
 
 ## ESTRUTURA DO PROJETO
+ --------------------------------------------------------------------------------------------------------------------------------------
 
-*Diretório                    	* finalidade       	                                                                                        | 
-|------------------------------	|------------------------------------------------------------------------------------------------------
-
-| src\main\java\controlador 		| Local onde fica a classe principal Driver, responsável por controlar o driver do Selenium
+src\main\java\controlador 		| Local onde fica a classe principal Driver, responsável por controlar o driver do Selenium
                                   
-| src\main\java\pagesobjects   	| Local onde é criada todas as classes das páginas, para facilitar na manutenção e estrutura do projeto                                                	
-| src\test\java\hooks          	| Local onde ficam os métodos que executam antes e depois de cada teste (@Before, @After)  
+src\main\java\pagesobjects   	| Local onde é criada todas as classes das páginas, para facilitar na manutenção e estrutura do projeto                                                	
+src\test\java\hooks          	| Local onde ficam os métodos que executam antes e depois de cada teste (@Before, @After)  
 
-| src\test\java\testesJUnit    	| Local onde será executado os testes das minhas pagesObjects                                                      	
+src\test\java\testesJUnit    	| Local onde será executado os testes das minhas pagesObjects                                                      	
 
     
 ## DOWNLOAD DO PROJETO TEMPLATE PARA SUA MÁQUINA LOCAL
