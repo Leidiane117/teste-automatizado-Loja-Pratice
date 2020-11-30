@@ -10,7 +10,7 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 *   Maven 3.5.*
 *   Navegador Web (Chrome, Opera, FireFox, Edge ou Safari)
 *   Intellij IDEA
-
+*   JUnit
 
 ## ESTRUTURA DO PROJETO
 
