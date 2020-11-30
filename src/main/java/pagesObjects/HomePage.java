@@ -12,9 +12,8 @@ public class HomePage extends Driver {
     By imagem = By.xpath("//body/div[@id='page']/div[2]/div[1]/div[2]/div[1]" +
             "/div[1]/ul[1]/li[2]/div[1]/div[1]/div[1]/a[1]/img[1]");
 
-    By botao= By.xpath("//body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/" +
-            "div[1]/div[1]/div[4]/form[1]/div[1]/div[3]/div[1]/p[1]/button[1]");// trocar esse camninho
-
+    By botao= By.xpath("//body[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/ul[1]/" +
+            "li[2]/div[1]/div[2]/div[2]/a[1]/span[1]");
 
     public void adicionarProduto() {
         getDriver().findElement(imagem).click(); //encontrar imagem e clicar
@@ -22,11 +21,10 @@ public class HomePage extends Driver {
 
         // aguardar até aparecer o elemento h2 da próxima página
      WebDriverWait wait = new WebDriverWait(getDriver(),30);
-     wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//header/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]" +
-             "  /h2[1]")));
+     wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//body[1]/div[1]/div[1]/header[1]/div[3]/div[1]" +
+             "/div[1]/div[4]/div[1]/div[1]/h2[1]")));
 
     }
-
 
 
 }

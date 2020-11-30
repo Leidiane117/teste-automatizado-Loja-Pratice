@@ -1,30 +1,43 @@
 package testesJUnit;
-import controlador.Driver;
 import hooks.Hooks;
 import org.junit.Test;
-import pagesObjects.CheckOutPage;
+import pagesObjects.CheckOutEmailPage;
+import pagesObjects.CriarContaPage;
 import pagesObjects.HomePage;
-import java.util.concurrent.TimeUnit;
+
+import static org.junit.Assert.assertEquals;
 
 
 public class ExecutarTeste extends Hooks {
 
 
     HomePage homePage;
-    CheckOutPage checkOutPage;
+    CheckOutEmailPage checkOutPage;
+    CriarContaPage conta;
+
     @Test
     public void adicionarProdutoCarrinho() {
         homePage = new HomePage();
         homePage.adicionarProduto();
-        System.out.print("OK");
+       System.out.print("Teste 1 realizado com sucesso");
     }
 
     @Test
-    public  void prosseguirComCheckout(){
-        checkOutPage= new CheckOutPage();
-        checkOutPage.prosseguirCheckout();
-        System.out.print("ok");
+    public  void checkoutPageEmail(){
+        checkOutPage= new CheckOutEmailPage();
+        checkOutPage.checkoutEemail();
+        System.out.print("Teste 2 realizado com Sucesso");
     }
+@Test
+    public void criarConta(){
+        conta= new CriarContaPage();
+        conta.preencherForm();
+    System.out.print("Teste 3 realizado com Sucesso");
+
+
+    }
+
+
 
 }
 
