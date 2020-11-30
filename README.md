@@ -13,10 +13,9 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 
 
 ## ESTRUTURA DO PROJETO
- --------------------------------------------------------------------------------------------------------------------------------------
 
 src\main\java\controlador 		------------  Local onde fica a classe principal Driver, responsável por controlar o driver do Selenium
-                 
+           
                  
 src\main\java\pagesobjects  ------------  Local onde é criada todas as classes das páginas, para facilitar na manutenção e estrutura do projeto      
 
