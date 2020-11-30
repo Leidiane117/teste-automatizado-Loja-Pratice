@@ -39,10 +39,6 @@ Abaixo está a lista de frameworks utilizados nesse projeto
 
 * Selenium - Responsável pela interação com páginas web
 * Junit - Responsável por validar as condições de teste
-* Lombok - Otimização de classes modelos
+* DriverManager - Responsável por gerenciar os drives para os navegadores
 
 
-
-## LOG DE EXECUÇÃO
-
-Os logs de execução gerados pelo Log4j2 ficam alocados na pasta target/log
