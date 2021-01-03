@@ -13,7 +13,7 @@ public class HomePage extends Driver {
             "/div[1]/ul[1]/li[2]/div[1]/div[1]/div[1]/a[1]/img[1]");
 
     By botao= By.xpath("//body[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/ul[1]/" +
-            "li[2]/div[1]/div[2]/div[2]/a[1]/span[1]");
+            "li[2]/div[1]/div[2]/div[2]/a[1]/span[1]"); // mudar esse path ele noã encontrou o botão!
 
     public void adicionarProduto() {
         getDriver().findElement(imagem).click(); //encontrar imagem e clicar
