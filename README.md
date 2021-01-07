@@ -41,25 +41,25 @@ Abaixo está a lista de frameworks utilizados nesse projeto
 
 ## ROTEIRO DO TESTE
 
-1. Acessar o site: http://automationpractice.com/index.php
+1.Acessar o site: http://automationpractice.com/index.php
 
-2. Escolher um produto qualquer na loja.
+2.Escolher um produto qualquer na loja.
 
-3. Adicionar o produto escolhido ao carrinho.
+3.Adicionar o produto escolhido ao carrinho.
 
-4. Prosseguir para o checkout.
+4.Prosseguir para o checkout.
 
-5. Validar se o produto foi corretamente adicionado ao carrinho e prosseguir caso esteja tudo certo.
+5.Validar se o produto foi corretamente adicionado ao carrinho e prosseguir caso esteja tudo certo.
 
-6. Realizar o cadastro do cliente preenchendo todos os campos obrigatórios dos formulários.
+6.Realizar o cadastro do cliente preenchendo todos os campos obrigatórios dos formulários.
 
-7. Validar se o endereço está correto e prosseguir.
+7.Validar se o endereço está correto e prosseguir.
 
-8. Aceitar os termos de serviço e prosseguir.
+8.Aceitar os termos de serviço e prosseguir.
 
-9. Validar o valor total da compra.
+9.Validar o valor total da compra.
 
-10. Selecionar um método de pagamento e prossiga.
+10.Selecionar um método de pagamento e prossiga.
 
-11. Confirmar a compra e validar se foi finalizada com sucesso.
+11.Confirmar a compra e validar se foi finalizada com sucesso.
 
