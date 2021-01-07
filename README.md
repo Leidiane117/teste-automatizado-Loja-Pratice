@@ -2,7 +2,7 @@
 # PROGRAMA MODELO PARA TESTE WEB 
 
 ## Projeto de teste automatizado, desenvolvido com proposito de realizar uma compra com sucesso na loja Pratice
------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## PRÉ-REQUISITOS
 
@@ -15,7 +15,6 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 
 
 ## ESTRUTURA DO PROJETO
- --------------------------------------------------------------------------------------------------------------------------------------
 
 src\main\java\controlador 		------------  Local onde fica a classe principal Driver, responsável por controlar o driver do Selenium
            
@@ -32,8 +31,6 @@ src\test\java\testesJUnit  ------------   Local onde será executado os testes d
 
 ## FRAMEWORKS UTILIZADOS
 
-Abaixo está a lista de frameworks utilizados nesse projeto
-
 * Selenium - Responsável pela interação com páginas web
 * Junit - Responsável por validar as condições de teste
 * Lombok - Otimização de classes modelos
@@ -41,25 +38,25 @@ Abaixo está a lista de frameworks utilizados nesse projeto
 
 ## ROTEIRO DO TESTE
 
-1.Acessar o site: http://automationpractice.com/index.php
+1. Acessar o site: http://automationpractice.com/index.php
 
-2.Escolher um produto qualquer na loja.
+2. Escolher um produto qualquer na loja.
 
-3.Adicionar o produto escolhido ao carrinho.
+3. Adicionar o produto escolhido ao carrinho.
 
-4.Prosseguir para o checkout.
+4. Prosseguir para o checkout.
 
-5.Validar se o produto foi corretamente adicionado ao carrinho e prosseguir caso esteja tudo certo.
+5. Validar se o produto foi corretamente adicionado ao carrinho e prosseguir caso esteja tudo certo.
 
-6.Realizar o cadastro do cliente preenchendo todos os campos obrigatórios dos formulários.
+6. Realizar o cadastro do cliente preenchendo todos os campos obrigatórios dos formulários.
 
-7.Validar se o endereço está correto e prosseguir.
+7. Validar se o endereço está correto e prosseguir.
 
-8.Aceitar os termos de serviço e prosseguir.
+8. Aceitar os termos de serviço e prosseguir.
 
-9.Validar o valor total da compra.
+9. Validar o valor total da compra.
 
-10.Selecionar um método de pagamento e prossiga.
+10. Selecionar um método de pagamento e prossiga.
 
-11.Confirmar a compra e validar se foi finalizada com sucesso.
+11. Confirmar a compra e validar se foi finalizada com sucesso.
 
