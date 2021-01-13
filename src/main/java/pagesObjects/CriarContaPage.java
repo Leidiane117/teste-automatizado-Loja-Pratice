@@ -12,7 +12,7 @@ public class CriarContaPage extends Driver {
     By nome= By.id("customer_firstname");
     By sobrenome=By.id("customer_lastname");
     By senha= By.id("passwd");
-    By endereco= By.id("adress1");
+    By endereco= By.id("address1");
     By cidade=By.id("city");
     By cep= By.id("postcode");
     By celular= By.id("phone_mobile");
@@ -26,7 +26,7 @@ public class CriarContaPage extends Driver {
         getDriver().findElement(form);
         getDriver().findElement(radioButton).click();
         getDriver().findElement(nome).sendKeys("Leidiane");
-        getDriver().findElement(sobrenome).sendKeys("Souza");
+        getDriver().findElement(sobrenome).sendKeys("Soares");
         getDriver().findElement(senha).sendKeys("123456");
         getDriver().findElement(endereco).sendKeys("Rua Oliveira");
         getDriver().findElement(cidade).sendKeys("New York");
@@ -37,7 +37,11 @@ public class CriarContaPage extends Driver {
         Select pais= new Select((getDriver().findElement(By.id("id_country"))));
         pais.selectByVisibleText("United States");
 
-        getDriver().findElement(botaoSubmit).submit();
+        getDriver().findElement(botaoSubmit).click(); //registrar
+        WebDriverWait wait = new WebDriverWait(getDriver(),30);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[@class='page-heading']")));
+
+        getDriver().findElement(By.xpath("//button[@type='submit']//span[contains(text(),'Proceed to checkout')]")).click();
 
 
     }

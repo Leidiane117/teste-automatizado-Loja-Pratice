@@ -19,9 +19,11 @@ public class ExecutarTeste extends Hooks {
     public void realizarCompra() {
 
         homePage.adicionarProduto();
-        System.out.print("Teste 1 realizado com sucesso");
+        System.out.println("Teste 1 realizado com sucesso"); //aparecer no console do editor
+
         checkOutPage.checkoutEemail();
-        System.out.print("Teste 2 realizado com Sucesso");
+        System.out.println("\n Teste 2 realizado com Sucesso"); //n pula linha
+
         conta.preencherForm();
         System.out.print("Teste 3 realizado com Sucesso");
 
