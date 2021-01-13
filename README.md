@@ -56,7 +56,7 @@ src\test\java\testesJUnit  ------------   Local onde será executado os testes d
 
 9. Validar o valor total da compra.
 
-10. Selecionar um método de pagamento e prossiga.
+10. Selecionar um método de pagamento e prosseguir.
 
 11. Confirmar a compra e validar se foi finalizada com sucesso.
 
