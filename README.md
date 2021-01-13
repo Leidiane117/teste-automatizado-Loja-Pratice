@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 # PROGRAMA MODELO PARA TESTE WEB 
 
-Projeto desenvolvido com proposito de ser um modelo base para teste para interface web
+
+## Projeto de teste automatizado, desenvolvido com proposito de realizar uma compra com sucesso na loja Pratice
+
 
 ## PRÉ-REQUISITOS
-
-Requisitos de software e hardware necessários para executar este projeto de automação
 
 *   Java 1.8 SDK
 *   Maven 3.5.*
@@ -14,12 +14,13 @@ Requisitos de software e hardware necessários para executar este projeto de aut
 
 
 ## ESTRUTURA DO PROJETO
- --------------------------------------------------------------------------------------------------------------------------------------
+
 
 src\main\java\controlador 		------------  Local onde fica a classe principal Driver, responsável por controlar o driver do Selenium
-                 
-                 
+           
+               
 src\main\java\pagesobjects  ------------  Local onde é criada todas as classes das páginas, para facilitar na manutenção e estrutura do projeto      
+
 
 src\test\java\hooks        -------------  Local onde ficam os métodos que executam antes e depois de cada teste (@Before, @After)  
 
@@ -27,68 +28,35 @@ src\test\java\hooks        -------------  Local onde ficam os métodos que execu
 src\test\java\testesJUnit  ------------   Local onde será executado os testes das minhas pagesObjects                                                      	
 
     
-## DOWNLOAD DO PROJETO TEMPLATE PARA SUA MÁQUINA LOCAL
-
-Faça o donwload do template no repositório de código para utilizar no seu projeto em especifico, 
-feito isso, fique a vontande para usufruir dos recursos disponíveis e 
-também customizar de acordo com sua necessidade. 
-
 
 ## FRAMEWORKS UTILIZADOS
-
-Abaixo está a lista de frameworks utilizados nesse projeto
 
 * Selenium - Responsável pela interação com páginas web
 * Junit - Responsável por validar as condições de teste
 * Lombok - Otimização de classes modelos
 
 
+## ROTEIRO DO TESTE
 
-## LOG DE EXECUÇÃO
+1. Acessar o site: http://automationpractice.com/index.php
 
-Os logs de execução gerados pelo Log4j2 ficam alocados na pasta target/log
-=======
-# PROGRAMA MODELO PARA TESTE WEB 
+2. Escolher um produto qualquer na loja.
 
-Projeto desenvolvido com proposito de ser um modelo base para teste para interface web
+3. Adicionar o produto escolhido ao carrinho.
 
-## PRÉ-REQUISITOS
+4. Prosseguir para o checkout.
 
-Requisitos de software e hardware necessários para executar este projeto de automação
+5. Validar se o produto foi corretamente adicionado ao carrinho e prosseguir caso esteja tudo certo.
 
-*   Java 1.8 SDK
-*   Maven 3.5.*
-*   Navegador Web (Chrome, Opera, FireFox, Edge ou Safari)
-*   Intellij IDEA
-*   JUnit
+6. Realizar o cadastro do cliente preenchendo todos os campos obrigatórios dos formulários.
 
-## ESTRUTURA DO PROJETO
+7. Validar se o endereço está correto e prosseguir.
 
-src\main\java\controlador 		------------  Local onde fica a classe principal Driver, responsável por controlar o driver do Selenium
-           
-                 
-src\main\java\pagesobjects  ------------  Local onde é criada todas as classes das páginas, para facilitar na manutenção e estrutura do projeto      
+8. Aceitar os termos de serviço e prosseguir.
 
-src\test\java\hooks        -------------  Local onde ficam os métodos que executam antes e depois de cada teste (@Before, @After)  
+9. Validar o valor total da compra.
 
+10. Selecionar um método de pagamento e prossiga.
 
-src\test\java\testesJUnit  ------------   Local onde será executado os testes das minhas pagesObjects                                                      	
-
-    
-## DOWNLOAD DO PROJETO TEMPLATE PARA SUA MÁQUINA LOCAL
-
-Faça o donwload do template no repositório de código para utilizar no seu projeto em especifico, 
-feito isso, fique a vontande para usufruir dos recursos disponíveis e 
-também customizar de acordo com sua necessidade. 
-
-
-## FRAMEWORKS UTILIZADOS
-
-Abaixo está a lista de frameworks utilizados nesse projeto
-
-* Selenium - Responsável pela interação com páginas web
-* Junit - Responsável por validar as condições de teste
-* DriverManager - Responsável por gerenciar os drives para os navegadores
-
-
+11. Confirmar a compra e validar se foi finalizada com sucesso.
 
