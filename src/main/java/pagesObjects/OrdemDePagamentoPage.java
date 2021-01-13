@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class OrdemDePagamentoPage extends Driver {
 
 
-    //página /ordem de pagamento
+    //página compra
     By checklistTermo = By.xpath("");
 
 
