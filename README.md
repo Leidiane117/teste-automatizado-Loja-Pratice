@@ -7,7 +7,7 @@
 
 ## PRÉ-REQUISITOS
 
-*   Java 1.8 SDK
+*   Java 1.8 JDK
 *   Maven 3.5.*
 *   Navegador Web (Chrome, Opera, FireFox, Edge ou Safari)
 *   Intellij IDEA
@@ -56,7 +56,7 @@ src\test\java\testesJUnit  ------------   Local onde será executado os testes d
 
 9. Validar o valor total da compra.
 
-10. Selecionar um método de pagamento e prossiga.
+10. Selecionar um método de pagamento e prosseguir.
 
 11. Confirmar a compra e validar se foi finalizada com sucesso.
 
