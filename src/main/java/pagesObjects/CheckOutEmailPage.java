@@ -10,11 +10,12 @@ public class CheckOutEmailPage extends Driver {
     By getbotaocheckoutProsseguir= By.xpath("//span[contains(text(),'Proceed to checkout')]");
     By getBotaocheckoutProsseguir2  = By.xpath("//a[@class='button btn btn-default standard-checkout button-medium']//span[contains(text(),'Proceed to checkout')]");
     By botaoCreate= By.id("SubmitCreate");
-   public void checkoutEemail(){
+
+    public void checkoutEemail(){
         getDriver().findElement(getbotaocheckoutProsseguir).click(); //sumario
         getDriver().findElement(getBotaocheckoutProsseguir2).click(); // sing in
 
-       getDriver().findElement(By.xpath("//input[@id='email_create']")).sendKeys("leidiane.souza1@gmail.com");
+       getDriver().findElement(By.xpath("//input[@id='email_create']")).sendKeys("leidiane.souza100@gmail.com");
        getDriver().findElement(botaoCreate).click(); //criar email
 
 
