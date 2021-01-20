@@ -19,7 +19,7 @@ public class ExecutarTeste extends Hooks {
     public void realizarCompra() { //script do teste
 
         homePage.adicionarProduto(); // método adicionar o produto ao carrinho
-        System.out.println("Teste 1 realizado com sucesso"); //aparecer no console do editor
+        System.out.println("\n Teste 1 realizado com sucesso"); //aparecer no console do editor
 
         checkOutPage.checkoutEemail(); // método enviar um email ao input e validar
         System.out.println("\n Teste 2 realizado com Sucesso"); //n pula linha
@@ -28,7 +28,7 @@ public class ExecutarTeste extends Hooks {
         System.out.print("\n Teste 3 realizado com Sucesso");
 
         ordemDePagamento.setChecklistTermo(); // método clicar no checklist termo de responsabilidade
-        System.out.println("Testes 4 realizado com Sucesso");
+        System.out.println("\n Testes 4 realizado com Sucesso");
         ordemDePagamento.escolhaPagamento(); // método para escolher a forma e pagamento e verificar se a comprar foi concluída com sucesso
         System.out.println("\n ÚLTIMO teste realizado com Sucesso");
 

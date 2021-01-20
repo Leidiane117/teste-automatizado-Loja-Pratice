@@ -12,6 +12,7 @@
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
         <version>4.13.1</version>
+
     </dependency>
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
@@ -28,6 +29,13 @@
         <artifactId>lombok</artifactId>
         <version>1.18.16</version>
     </dependency>
+    <dependency>
+        <groupId>com.github.javafaker</groupId>
+        <artifactId>javafaker</artifactId>
+        <version>1.0.2</version>
+    </dependency>
+
 </dependencies>
+
 
 </project>

@@ -1,10 +1,13 @@
 package pagesObjects;
+import com.github.javafaker.Faker;
 import controlador.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.Locale;
 
 
 public class CriarContaPage extends Driver {
@@ -20,18 +23,27 @@ public class CriarContaPage extends Driver {
     By radioButton= By.id("id_gender2");
 
 
+    Faker faker = new Faker(new Locale("en-US")); //mocando dados com a classe java faker
+    String name = faker.name().firstName();
+    String lastName = faker.name().lastName();
+    String street = faker.address().streetName();
+    String passWord= faker.internet().password();
+    String cel = faker.phoneNumber().cellPhone();
+    String zipCode= faker.address().zipCode();
+    String city= faker.address().city();
+
     public void preencherForm(){
 
 
         getDriver().findElement(form);
         getDriver().findElement(radioButton).click(); //encontrar elemento que corresponde á forma de tratamento Mrs. e clicar
-        getDriver().findElement(nome).sendKeys("Leidiane");
-        getDriver().findElement(sobrenome).sendKeys("Soares");
-        getDriver().findElement(senha).sendKeys("123456");
-        getDriver().findElement(endereco).sendKeys("Rua Zé ninguém");
-        getDriver().findElement(cidade).sendKeys("New York");
-        getDriver().findElement(cep).sendKeys("00000");
-        getDriver().findElement(celular).sendKeys("965041901");
+        getDriver().findElement(nome).sendKeys(name);
+        getDriver().findElement(sobrenome).sendKeys(lastName);
+        getDriver().findElement(senha).sendKeys(passWord);
+        getDriver().findElement(endereco).sendKeys(street);
+        getDriver().findElement(cidade).sendKeys(city);
+        getDriver().findElement(cep).sendKeys(zipCode);
+        getDriver().findElement(celular).sendKeys(cel);
         Select estado= new Select(getDriver().findElement(By.id("id_state")));
         estado.selectByVisibleText("New York"); // encontrar o elemento da combobox e selecionar
         Select pais= new Select((getDriver().findElement(By.id("id_country"))));
