@@ -8,6 +8,7 @@
 ## PRÉ-REQUISITOS
 
 *   Java 1.8 JDK
+*   JUnit 4.13
 *   Maven 3.5.*
 *   Navegador Web (Chrome, Opera, FireFox, Edge ou Safari)
 *   Intellij IDEA
