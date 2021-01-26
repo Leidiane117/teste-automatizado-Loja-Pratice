@@ -35,7 +35,7 @@ src\test\java\testesJUnit  ------------   Local onde será executado os testes d
 * Selenium - Responsável pela interação com páginas web
 * Junit - Responsável por validar as condições de teste
 * Lombok - Otimização de classes modelos
-
+* JavaFaker - Responsável por gerar dados falsos para realização dos testes
 
 ## ROTEIRO DO TESTE
 
