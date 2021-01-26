@@ -1,5 +1,5 @@
 
-# PROGRAMA MODELO TESTE DE ACEITAÇÂO PARA WEB 
+# PROGRAMA TESTE DE ACEITAÇÃO PARA WEB 
 
 
 ## Projeto de teste automatizado, desenvolvido com proposito de realizar uma compra com sucesso na loja Pratice
