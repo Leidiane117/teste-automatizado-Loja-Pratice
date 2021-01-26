@@ -1,5 +1,5 @@
 
-# PROGRAMA TESTE DE ACEITAÇÃO PARA WEB 
+# PROGRAMA TESTE DE ACEITAÇÃO PARA WEB :coffee:
 
 
 ## Projeto de teste automatizado, desenvolvido com proposito de realizar uma compra com sucesso na loja Pratice
